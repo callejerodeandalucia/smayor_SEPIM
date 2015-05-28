@@ -1,3 +1,11 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+	document.addEventListener("backbutton", onBackButton, false);
+}
+function onBackButton(){
+	navigator.app.exitApp();
+}
+
 function obtenerUrlComoObjeto(url){
 	var urlObjeto = {};
 	separadorUrlParametrosIndex = url.indexOf("?");
