@@ -20,7 +20,7 @@
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="AutoHideSplashScreen" value="false" />
 	<preference name="fullscreen" value="true" />
-	<preference name="phonegap-version" value="cli-3.7.0" />
+	<preference name="phonegap-version" value="cli-5.2.0" />
 
 <!-- PERMISOS -->	
 	<preference name="permissions" value="none"/>	
@@ -58,6 +58,7 @@
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.0.1" />
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" version="2.1.0" />
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" version="1.0.1" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
 
 	
 <!-- CONFIGS -->	
