@@ -407,8 +407,9 @@ function cargarAplicacion(){
 	    	 //$.mobile.changePage("#inicio");
 		navigator.splashscreen.hide();
 	     },
-	     error: function(){
-	 		 alert("Se ha producido un error al obtener la aplicación con el id: " + idAplicacion);
+	     error: function (xhr, ajaxOptions, thrownError) {
+	     		console.log(xhr.responseText);
+	     		alert("Se ha producido un error al obtener la aplicación con el id: " + idAplicacion);
 	 	 }
 	 });
 }
